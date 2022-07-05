@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title-header {
+  font-size: 36px;
+  font-family: 'Raleway' sans-serif;
+  font-weight: bold;
+}

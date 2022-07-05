@@ -1,0 +1,53 @@
+.box-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.add-form {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.add-form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #BDBDBD;
+  border-radius: 12px;
+  color: #828282;
+  font-size: 14px;
+}
+
+button {
+  margin-left: 25px;
+  width: 109px;
+  height: 56px;
+  border-radius: 12px;
+  background: #2F80ED;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content-box {
+  display: flex;
+  width: 80%;
+}
+
+.itemList {
+  margin: 27px 0px;
+}
+
+.itemList input {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+  background: #2F80ED;
+}

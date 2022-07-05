@@ -1,0 +1,71 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.completed-datalist {
+  width: 100%;
+}
+
+.completed-datalist img {
+  height: 18px;
+  width: 14px;
+  margin-left: 100%;
+  cursor: pointer;
+}
+
+.completed-datalist p {
+  width: 100%;
+}
+
+.img-delete {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 80%;
+}
+
+.delete-button button {
+  cursor: pointer;
+  border: none;
+  width: 124px;
+  height: 40px;
+  background-color: #EB5757;
+}
+
+.delete-button img { 
+  width: 18px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+#delete-button {
+  margin-top: 30px;
+}
+
+.check-active {
+  text-decoration: line-through;
+  font-weight: bold;
+}
